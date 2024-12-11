@@ -1,0 +1,30 @@
+<template>
+  <main class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-12 md:pb-24 bg">
+    <div class="py-6 md:order-1 hidden md:block">
+      <NuxtImg src="/image-hero.png" sizes="(max-width: 800px) 100vw, 620px" />
+    </div>
+    <div>
+      <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
+        Transformo ideias em experiências digitais.
+      </h1>
+      <p class="text-lg mt-4 text-slate-600 max-w-xl">
+        Desenvolvedor com experiência em [tecnologias principais], especializado em [áreas de expertise]."
+        "Minha missão é criar aplicações funcionais, escaláveis e elegantes."
+        "Com [X] anos de experiência, ajudo empresas e indivíduos a transformar ideias em realidade.
+      </p>
+      <div class="mt-6 flex flex-col sm:flex-row gap-3">
+        <!-- <Link href="#" href="https://web3templates.com/templates/astroship-starter-website-template-for-astro"
+          target="_blank" class="flex gap-1 items-center justify-center" rel="noopener">
+        <Icon class="text-white w-5 h-5" name="bx:bxs-cloud-download" />
+
+        Download for Free
+        </Link> -->
+        <!-- <Link size="lg" style="outline" rel="noopener" href="https://github.com/surjithctly/astroship"
+          class="flex gap-1 items-center justify-center" target="_blank">
+        <Icon class="text-black w-4 h-4" name="bx:bxl-github" />
+        GitHub Repo
+        </Link> -->
+      </div>
+    </div>
+  </main>
+</template>
